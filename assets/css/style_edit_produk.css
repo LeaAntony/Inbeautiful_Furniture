@@ -1,0 +1,49 @@
+/* Body */
+body {
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+/* Menu */
+.bg-body-secondary {
+    height: 90vh;
+    position: fixed;
+}
+
+.ck-editor__editable {
+    max-height: 200px;
+    font-size: 13px;
+    line-height: 1.0;
+}
+
+ul .div{
+    position: fixed;
+}
+
+.keterangan {
+    font-size: 12px;
+    font-weight: lighter;
+    color: gray;
+}
+
+/* Footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

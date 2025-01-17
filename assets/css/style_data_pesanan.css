@@ -1,0 +1,45 @@
+/* Body */
+body {
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+/* Menu */
+.bg-body-secondary {
+    height: 90vh;
+    position: fixed;
+}
+
+ul .nav {
+    position: fixed;
+}
+
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+/* Footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

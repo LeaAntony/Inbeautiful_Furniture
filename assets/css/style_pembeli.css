@@ -1,0 +1,124 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: normal;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.logo {
+    width: 175px;
+    height: 100%;
+}
+
+.fa-cart-plus {
+    color: #212529;
+}
+
+.fa-user {
+    color: #212529;
+}
+
+[id]::before {
+    content: '';
+    display: block;
+    height: 140px;
+    margin-top: -140px;
+    visibility: hidden;
+}
+
+.row .card:hover {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transform: scale(1.02);
+}
+
+.carousel-control-prev {
+    left: 0%;
+    top: 10%;
+    width: 100px;
+}
+.carousel-control-next {
+    right: 0%;
+    top: 10%;
+    width: 100px;
+}
+
+.card-img-top {
+    align-self: center;
+    width: max-content;
+    height: 150px;
+}
+
+.img-cover {
+    object-fit: cover;
+}
+
+.card-kategori {
+    width: 317px;
+    height: 317px;
+}
+
+.img-kategori {
+    width: 322px;
+    margin-left: -13px;
+    margin-top: -2px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.img-kategori-etc {
+    vertical-align: middle;
+    width: 20px;
+    margin-top: 120px;
+    height: auto;
+}
+
+.card-body {
+    text-align: left;
+    font-size: smaller;
+}
+
+.harga {
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffc107;
+}
+
+.hasil {
+    color: #ffc107;
+}
+
+.hasilx {
+    color: rgb(255, 7, 7);
+}
+
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+
+span>p {
+    line-height: normal;
+    font-size: 12px;
+    margin: 0px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

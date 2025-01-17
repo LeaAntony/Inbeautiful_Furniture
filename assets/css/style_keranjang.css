@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: normal;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.logo {
+    width: 175px;
+    height: 100%;
+}
+
+.fa-cart-plus {
+    color: #212529;
+}
+
+.fa-user {
+    color: #212529;
+}
+
+.table-listx {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.table-list {
+    width: 275px;
+}
+
+.input-group {
+    width: 150px;
+}
+
+.form-input {
+    width: 75px;
+    text-align: center;
+}
+
+.checkout {
+    position: fixed;
+    bottom: 50px;
+}
+
+.harga {
+    color: #ffc107;
+    font-weight: 500;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

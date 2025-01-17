@@ -1,0 +1,184 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: normal;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.logo {
+    width: 175px;
+    height: 100%;
+}
+
+.fa-cart-plus {
+    color: #212529;
+}
+
+.fa-user {
+    color: #212529;
+}
+
+.product-container1 {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #fff; /* Add this line to create a white border */
+
+}
+
+.product-container2 {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 1px solid #fff; /* Add this line to create a white border */
+    height: 610px;
+
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.product-price {
+    font-size: 35px;
+    color: #ffc107;
+    margin: 20px 0;
+}
+
+.product-description {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 22px; 
+
+}
+
+.product-terkait {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 22px; 
+}
+
+.row .card:hover {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transform: scale(1.02);
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-button {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.quantity-input {
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-actions {
+    margin: 20px 0;
+}
+
+.product-button {
+    margin-right: 10px;
+}
+
+.quantity-label {
+    margin-right: 10px;
+}
+
+.remaining-label {
+    margin-left: 10px;
+}
+
+.quantity-input {
+    width: 75px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.card-img-top {
+    align-self: center;
+    width: max-content;
+    height: 150px;
+}
+
+.img-cover {
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: left;
+    font-size: smaller;
+}
+
+.harga {
+    font-size: 30px;
+    color: #ffc107;
+    font-weight: 500;
+}
+
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+
+span>p {
+    line-height: normal;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.footer {
+    flex-shrink: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

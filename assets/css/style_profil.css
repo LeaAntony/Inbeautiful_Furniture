@@ -1,0 +1,73 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: normal;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.logo {
+    width: 175px;
+    height: 100%;
+}
+
+.fa-cart-plus {
+    color: #212529;
+}
+
+.fa-user {
+    color: #212529;
+}
+
+#profil {
+    margin-top: 40px;
+}
+
+#menu {
+    margin-top: 50px;
+}
+
+#menu ul li a {
+    color: black;
+}
+
+#menu ul li a:hover {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+#menu ul li a:not(hover) {
+    border-radius: 10px;
+}
+
+.text-area {
+    height: 103px;
+    width: 800px;
+    max-height: 140px;
+}
+
+.box {
+    height: 649px;
+}
+
+.small {
+    font-size: 16px;
+    margin-top: 1px;
+    color: gray;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
