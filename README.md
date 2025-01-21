@@ -8,16 +8,16 @@
                                                       
 ```
 
-##### Judul Proyek : Aplikasi Layanan Penjualan Barang dan Jasa (Inbeautiful Furniture)
+##### Judul Proyek : Aplikasi Layanan Penjualan Barang dan Jasa (Inbeautiful Room Furniture)
 
 ##### Nomor ID : [PBL IF 4 - 1A Pagi]
 
 ##### Pengusul Proyek : Ahmad Hamim Thohari, S.S.T., M.T
 
-##### Manajer proyek : Ahmad Hamim Thohari, S.S.T., M.T
+##### Manajer Proyek : Ahmad Hamim Thohari, S.S.T., M.T
 
 - Ketua Tim :
-  - [3312301006] – Fadli Aditya Suhairi
+  - [3312301006] - Fadli Aditya Suhairi
 
 - Anggota Tim :
   - [3312301001] - Lea Antony
@@ -27,8 +27,8 @@
 
 - Pengarah (Dosen & Laboran mata kuliah PBL) :
   - Ahmad Hamim Thohari, S.S.T., M.T.
-  - Mumammad Idris,S.Tr., M.Tr.Kom
-  - Noper Ardi,S.Pd., M.Eng.
+  - Mumammad Idris, S.Tr., M.Tr.Kom
+  - Noper Ardi, S.Pd., M.Eng.
   - Sartikha, S. ST., M.Eng
 
 Teknik Informatika, Politeknik Negeri Batam
